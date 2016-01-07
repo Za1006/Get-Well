@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA845F161C3E13B4008DE5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA845F151C3E13B4008DE5BF /* AppDelegate.swift */; };
+		AA845F181C3E13B4008DE5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA845F171C3E13B4008DE5BF /* ViewController.swift */; };
+		AA845F1B1C3E13B4008DE5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA845F191C3E13B4008DE5BF /* Main.storyboard */; };
+		AA845F1E1C3E13B4008DE5BF /* Get_Well.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA845F1C1C3E13B4008DE5BF /* Get_Well.xcdatamodeld */; };
+		AA845F201C3E13B4008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA845F1F1C3E13B4008DE5BF /* Assets.xcassets */; };
+		AA845F231C3E13B4008DE5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA845F211C3E13B4008DE5BF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA845F121C3E13B4008DE5BF /* Get Well.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Well.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA845F151C3E13B4008DE5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA845F171C3E13B4008DE5BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA845F1A1C3E13B4008DE5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA845F1D1C3E13B4008DE5BF /* Get_Well.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Get_Well.xcdatamodel; sourceTree = "<group>"; };
+		AA845F1F1C3E13B4008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA845F221C3E13B4008DE5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA845F241C3E13B4008DE5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA845F0F1C3E13B4008DE5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA845F091C3E13B4008DE5BF = {
+			isa = PBXGroup;
+			children = (
+				AA845F141C3E13B4008DE5BF /* Get Well */,
+				AA845F131C3E13B4008DE5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA845F131C3E13B4008DE5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA845F121C3E13B4008DE5BF /* Get Well.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA845F141C3E13B4008DE5BF /* Get Well */ = {
+			isa = PBXGroup;
+			children = (
+				AA845F151C3E13B4008DE5BF /* AppDelegate.swift */,
+				AA845F171C3E13B4008DE5BF /* ViewController.swift */,
+				AA845F191C3E13B4008DE5BF /* Main.storyboard */,
+				AA845F1F1C3E13B4008DE5BF /* Assets.xcassets */,
+				AA845F211C3E13B4008DE5BF /* LaunchScreen.storyboard */,
+				AA845F241C3E13B4008DE5BF /* Info.plist */,
+				AA845F1C1C3E13B4008DE5BF /* Get_Well.xcdatamodeld */,
+			);
+			path = "Get Well";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA845F111C3E13B4008DE5BF /* Get Well */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA845F271C3E13B4008DE5BF /* Build configuration list for PBXNativeTarget "Get Well" */;
+			buildPhases = (
+				AA845F0E1C3E13B4008DE5BF /* Sources */,
+				AA845F0F1C3E13B4008DE5BF /* Frameworks */,
+				AA845F101C3E13B4008DE5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get Well";
+			productName = "Get Well";
+			productReference = AA845F121C3E13B4008DE5BF /* Get Well.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA845F0A1C3E13B4008DE5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					AA845F111C3E13B4008DE5BF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HM7AP2V9SS;
+					};
+				};
+			};
+			buildConfigurationList = AA845F0D1C3E13B4008DE5BF /* Build configuration list for PBXProject "Get Well" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA845F091C3E13B4008DE5BF;
+			productRefGroup = AA845F131C3E13B4008DE5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA845F111C3E13B4008DE5BF /* Get Well */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA845F101C3E13B4008DE5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA845F231C3E13B4008DE5BF /* LaunchScreen.storyboard in Resources */,
+				AA845F201C3E13B4008DE5BF /* Assets.xcassets in Resources */,
+				AA845F1B1C3E13B4008DE5BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA845F0E1C3E13B4008DE5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA845F181C3E13B4008DE5BF /* ViewController.swift in Sources */,
+				AA845F1E1C3E13B4008DE5BF /* Get_Well.xcdatamodeld in Sources */,
+				AA845F161C3E13B4008DE5BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA845F191C3E13B4008DE5BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA845F1A1C3E13B4008DE5BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA845F211C3E13B4008DE5BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA845F221C3E13B4008DE5BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA845F251C3E13B4008DE5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA845F261C3E13B4008DE5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA845F281C3E13B4008DE5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Get Well/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiy.Get-Well";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA845F291C3E13B4008DE5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Get Well/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tiy.Get-Well";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA845F0D1C3E13B4008DE5BF /* Build configuration list for PBXProject "Get Well" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA845F251C3E13B4008DE5BF /* Debug */,
+				AA845F261C3E13B4008DE5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA845F271C3E13B4008DE5BF /* Build configuration list for PBXNativeTarget "Get Well" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA845F281C3E13B4008DE5BF /* Debug */,
+				AA845F291C3E13B4008DE5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA845F1C1C3E13B4008DE5BF /* Get_Well.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA845F1D1C3E13B4008DE5BF /* Get_Well.xcdatamodel */,
+			);
+			currentVersion = AA845F1D1C3E13B4008DE5BF /* Get_Well.xcdatamodel */;
+			path = Get_Well.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA845F0A1C3E13B4008DE5BF /* Project object */;
+}
