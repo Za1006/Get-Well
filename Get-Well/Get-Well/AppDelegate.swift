@@ -17,11 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
+        
         application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [.Alert, .Sound], categories: nil))
         
+
         Parse.setApplicationId("VlKJB7hFnBgEIp5Z9eIFela9YRhKXQoxriKWlJO9",
             clientKey: "2bMSiwEwy31B43dJrnEO7vQfVLZrNYSK7wDbZ8U9")
-        
         return true
     }
 
