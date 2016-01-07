@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA845F321C3E1440008DE5BF"
+               BlueprintIdentifier = "AA845F571C3E1B5E008DE5BF"
                BuildableName = "Get-Well.app"
                BlueprintName = "Get-Well"
                ReferencedContainer = "container:Get-Well.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA845F321C3E1440008DE5BF"
+            BlueprintIdentifier = "AA845F571C3E1B5E008DE5BF"
             BuildableName = "Get-Well.app"
             BlueprintName = "Get-Well"
             ReferencedContainer = "container:Get-Well.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA845F321C3E1440008DE5BF"
+            BlueprintIdentifier = "AA845F571C3E1B5E008DE5BF"
             BuildableName = "Get-Well.app"
             BlueprintName = "Get-Well"
             ReferencedContainer = "container:Get-Well.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA845F321C3E1440008DE5BF"
+            BlueprintIdentifier = "AA845F571C3E1B5E008DE5BF"
             BuildableName = "Get-Well.app"
             BlueprintName = "Get-Well"
             ReferencedContainer = "container:Get-Well.xcodeproj">
