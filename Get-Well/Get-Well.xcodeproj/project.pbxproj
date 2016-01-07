@@ -26,6 +26,7 @@
 		AA845F401C3E1440008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA845F431C3E1440008DE5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA845F451C3E1440008DE5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA845F4E1C3E1A84008DE5BF /* GetWell.Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetWell.Bridging.h; sourceTree = "<group>"; };
 		EAA6B6DA05362FFC39F7C7D0 /* libPods-Get-Well.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Get-Well.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE9A23286F7A698E463B258 /* Pods-Get-Well.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get-Well.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get-Well/Pods-Get-Well.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +80,7 @@
 				AA845F421C3E1440008DE5BF /* LaunchScreen.storyboard */,
 				AA845F451C3E1440008DE5BF /* Info.plist */,
 				AA845F3D1C3E1440008DE5BF /* Get_Well.xcdatamodeld */,
+				AA845F4E1C3E1A84008DE5BF /* GetWell.Bridging.h */,
 			);
 			path = "Get-Well";
 			sourceTree = "<group>";
