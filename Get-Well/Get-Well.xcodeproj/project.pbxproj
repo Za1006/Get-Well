@@ -13,7 +13,6 @@
 		AA845F641C3E1B5E008DE5BF /* Get_Well.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA845F621C3E1B5E008DE5BF /* Get_Well.xcdatamodeld */; };
 		AA845F661C3E1B5E008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA845F651C3E1B5E008DE5BF /* Assets.xcassets */; };
 		AA845F691C3E1B5E008DE5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA845F671C3E1B5E008DE5BF /* LaunchScreen.storyboard */; };
-		F5D8C1090126B38011823842 /* libPods-Get-Well.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B84675621CF691761FF71546 /* libPods-Get-Well.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +24,6 @@
 		AA845F651C3E1B5E008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA845F681C3E1B5E008DE5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA845F6A1C3E1B5E008DE5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B84675621CF691761FF71546 /* libPods-Get-Well.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Get-Well.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86EC393984D12D8123A543C /* Pods-Get-Well.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get-Well.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get-Well/Pods-Get-Well.debug.xcconfig"; sourceTree = "<group>"; };
-		F8753C1138297008D91EBE0A /* Pods-Get-Well.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get-Well.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get-Well/Pods-Get-Well.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,29 +31,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5D8C1090126B38011823842 /* libPods-Get-Well.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82A85FBEE1EDBDE5D6A727C3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F86EC393984D12D8123A543C /* Pods-Get-Well.debug.xcconfig */,
-				F8753C1138297008D91EBE0A /* Pods-Get-Well.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		AA845F4F1C3E1B5E008DE5BF = {
 			isa = PBXGroup;
 			children = (
 				AA845F5A1C3E1B5E008DE5BF /* Get-Well */,
 				AA845F591C3E1B5E008DE5BF /* Products */,
-				82A85FBEE1EDBDE5D6A727C3 /* Pods */,
-				C0FEF44CBA9BC548F7111C18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +65,6 @@
 				AA845F621C3E1B5E008DE5BF /* Get_Well.xcdatamodeld */,
 			);
 			path = "Get-Well";
-			sourceTree = "<group>";
-		};
-		C0FEF44CBA9BC548F7111C18 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B84675621CF691761FF71546 /* libPods-Get-Well.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,7 +301,6 @@
 		};
 		AA845F6E1C3E1B5E008DE5BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F86EC393984D12D8123A543C /* Pods-Get-Well.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Get-Well/Info.plist";
@@ -337,7 +312,6 @@
 		};
 		AA845F6F1C3E1B5E008DE5BF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8753C1138297008D91EBE0A /* Pods-Get-Well.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Get-Well/Info.plist";
