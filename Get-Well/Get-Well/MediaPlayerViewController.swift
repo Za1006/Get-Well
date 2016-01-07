@@ -12,6 +12,7 @@ import MediaPlayer
 import AVFoundation
 import QuartzCore
 
+
 var timerCount = 0
 
 class MediaPlayerViewController: UIViewController
